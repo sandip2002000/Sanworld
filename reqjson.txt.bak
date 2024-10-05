@@ -1,0 +1,200 @@
+{
+   "Request_Id": "CP_5592c983-50eb-4238-85c4-95ea7205fd66",
+   "cpCreation": {
+      "Good_To_Go": "Yes",
+      "Added_Date": "14/10/2020",
+      "Last_Updated": "14/10/2020",
+      "Originator": "Aradhana Songara",
+      "Work_Stream": "Edge 7750",
+      "Capacity_Plan_Date": "14/10/2020",
+      "AEnd_1141": "AB",
+      "AEnd_Exchange": "[ABERDEEN CENTRAL TE]",
+      "AEnd_SauId": "ABERDEEN CENTRAL TE",
+      "Perspective": "DYNAMIC",
+      "Capacity_Planning_No": "",
+      "Capacity_Planning_No_Val": "",
+      "Linked_CP": "",
+      "Required_By_date": "",
+      "AEnd_SneId": null,
+      "ZEnd_1141": "",
+      "ZEnd_Exchange": "",
+      "ZEnd_SauId": "",
+      "ZEnd_SneId": "",
+      "Desc_Case": "",
+      "Order_Placement_Date": "",
+      "Escalation": "",
+      "rpmRef": "",
+      "On_Hold_Notes": "",
+      "Comments": "",
+      "Capacity_Req_Notes": "",
+      "Work_Package_Available": "",
+      "Delay_Reason": "",
+      "Target_Clear_Date": "",
+      "Delay_Notes": "",
+      "Year": "2020/2021",
+      "Delivery_Manager": "Aradhana Songara"
+   },
+   "addBrf": [
+      {
+         "brfProduct": "60/48 Port Cards",
+         "quantity": "1",
+         "leadOrder": "Yes",
+         "deplevel": "Level 1",
+         "priority": "P3",
+         "flow": "Manual",
+         "brfProductReason": "",
+         "dataComplete": "Yes",
+         "ELIGIBLETOBUILD": "false"
+      },
+      {
+         "brfProduct": "Patch Panel Cable Sets (45/60)",
+         "quantity": "1",
+         "leadOrder": "No",
+         "deplevel": "Level 2",
+         "priority": "P4",
+         "flow": "Manual",
+         "brfProductReason": "",
+         "dataComplete": "Yes",
+         "ELIGIBLETOBUILD": "false"
+      },
+      {
+         "brfProduct": "Cable Sets (15)",
+         "quantity": "2",
+         "leadOrder": "Yes",
+         "deplevel": "Level 1",
+         "priority": "P3",
+         "flow": "Manual",
+         "brfProductReason": "",
+         "dataComplete": "Yes",
+         "ELIGIBLETOBUILD": "false"
+      }
+   ],
+   "projectCreation": [
+      {
+         "brfProduct": "60/48 Port Cards",
+         "projectBuilder": {
+            "ein": "612240597",
+            "BRF PRODUCT REASON": "test",
+            "Cabling Fist Project Number_1": "947MF",
+            "Cabling Sourced From_1": "N/A",
+            "Card Installer_1": "FE",
+            "Card Sourced From_1": "Bulk List",
+            "Card Type_1": "10 Port GigE",
+            "Card Version_1": "GigE[48] Elect",
+            "Compaction Donor Card 1_1": "1",
+            "Compaction Donor Card 2_1": "2",
+            "Existing IOM Type_1": "N/A",
+            "Fist Project Number_1": "844NK",
+            "IOM Position_1": "1/1",
+            "IOM_1": "Provide",
+            "L2S ID_1": "NA",
+            "Loop From/To_1": "1",
+            "New/Compaction Card Position(s)_1": "10",
+            "New/Replacement IOM Type_1": "IOMv3-C",
+            "Notes to Planner_1": "Test",
+            "Number of SFP Types_1": "N/A",
+            "PROJECT_BUILD_TYPE": "FASTE Card Infill",
+            "PROJECT_SUB_TYPE": "Dynamic",
+            "PROJECT_TYPE": "Dynamic",
+            "Product Type_1": "Card Infill",
+            "Provision is Part of Lead Automation Job_1": "N",
+            "Quantity": "1",
+            "Recovered Cards Destination_1": "N/A",
+            "Scheme Driver_1": "21C DEC18 OPTGS BO HMRC",
+            "Site Type_1": "MSAN",
+            "TOTALDATASET": "1",
+            "TRS Area_1": "AA/A",
+            "TVC Loops Required_1": "N",
+            "ordertype": "Yes",
+            "carddetails": [
+               {
+                  "window_type": "LR",
+                  "cardmodel": "10GigE LR SFP+",
+                  "cardslot": "2/1/1",
+                  "std_eqpt_cost": "0",
+                  "cardtype": "10GigE SFP",
+                  "cardversion": "(1Tb)",
+                  "manufacturer": "ALN",
+                  "quantity": "1",
+                  "Cable to PP/Management Tray": "No",
+                  "ADVA Rack/Shelf to DF": "",
+                  "Port Usage Flag": ""
+               }
+            ]
+         }
+      },
+      {
+         "brfProduct": "Patch Panel Cable Sets (45/60)",
+         "projectBuilder": {
+            "ein": "612240597",
+            "PROJECT_BUILD_TYPE": "Cable Sets",
+            "PROJECT_SUB_TYPE": "Dynamic",
+            "PROJECT_TYPE": "Dynamic",
+            "Site Type_1": "MSAN",
+            "Scheme Driver_1": "19-20 WBC GROWTH",
+            "TRS Area_1": "AA",
+            "Notes to Planner_1": "test srims",
+            "TOTALDATASET": "1",
+            "Bundled Cable Installer_1": "FE",
+            "Bundled Cable Source_1": "Magna Park",
+            "Fist Project Number_1": "844GE",
+            "Provision is Part of Lead Automation Job_1": "N",
+            "Remote PP SNE ID_1": "123456",
+            "FastE Card Position_1": "1/1",
+            "Local Cat5 PP Location_1": "1/2",
+            "Quantity": "1",
+            "Remote Cat5 PP Location_1": "123456"
+         }
+      },
+      {
+         "brfProduct": "Cable Sets (15)",
+         "projectBuilder": {
+            "PROJECTDETAILS": {
+               "ein": "613343822",
+               "PROJECT_TYPE": "Dynamic",
+               "PROJECT_SUB_TYPE": "Dynamic",
+               "PROJECT_BUILD_TYPE": "Cable Sets"
+            },
+            "TOTALDATASET": [
+               {
+                  "ADVA Number_1": "123",
+                  "ADVA Rack Type_1": "3 SHELF",
+                  "ADVA TRS Area_1": "AA/A",
+                  "Bundled Cable Installer_1": "FE",
+                  "Bundled Cable Source_1": "Magna Park",
+                  "Chassis Number_1": "1",
+                  "FPE GigE Ports_1": "NA",
+                  "FPE SFP Quantity_1": "NA",
+                  "FPE SFP Type_1": "N/A",
+                  "FastE Card Logical Position_1": "1/1",
+                  "FastE Ports_1": "1/1",
+                  "Fist Project Number_1": "816EP",
+                  "Notes to Planner_1": "Test",
+                  "Provision is Part of Lead Automation Job_1": "N",
+                  "Remote PP Ports_1": "2/1",
+                  "Remote PP SNE ID_1": "123456",
+                  "Scheme Driver_1": "21C DEC18 OPTGS BO HMRC",
+                  "Site Type_1": "BESPOKE",
+                  "TRS Area_1": "AA/A",
+                  "ordertype": "Yes",
+                  "carddetails": [
+                     {
+                        "window_type": "LR",
+                        "cardmodel": "10GigE LR SFP+",
+                        "cardslot": "2/1/1",
+                        "std_eqpt_cost": "0",
+                        "cardtype": "10GigE SFP",
+                        "cardversion": "(1Tb)",
+                        "manufacturer": "ALN",
+                        "quantity": "1",
+                        "Cable to PP/Management Tray": "No",
+                        "ADVA Rack/Shelf to DF": "",
+                        "Port Usage Flag": ""
+                     }
+                  ]
+               }
+            ]
+         }
+      }
+   ]
+}
